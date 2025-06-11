@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Odin';
+    src: url('fonts/odinRounded.ttf') format('truetype');
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(16, 16, 86), rgb(46, 18, 86));
+    text-align: center;
+    height: 30px;
+}
+
+nav a {
+    position: relative;
+    top: 2px;
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 20px;
+}
+
+body {
+    padding-top: 0px;
+    font-family: 'Odin';
+    background: linear-gradient(to bottom, #3f3f91, rgb(72, 33, 91));
+    color: white;
+}
+
+.title {
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+    background-color: #13063177;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.title .icon {
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+p {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    padding: 0 10px;
+    margin-top: -30px;
+    line-height: 1.2;
+}
