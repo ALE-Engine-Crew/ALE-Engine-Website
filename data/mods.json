@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Oso",
+        "description": "Leche",
+        "image": "images/icon.png",
+        "link": "https://example.com"
+    },
+    {
+        "name": "Gato",
+        "description": "Café",
+        "image": "images/icon.png",
+        "link": "https://otro-ejemplo.com"
+    }
+]

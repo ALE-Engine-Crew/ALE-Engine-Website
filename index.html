@@ -5,7 +5,6 @@
         <title>ALE Engine</title>
         
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
 
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale = 1.0">
 
@@ -13,51 +12,28 @@
     </head>
 
     <header>
-        <p1 class="aleHeader">
+        <a class="aleHeader" style="font-family: Odin;">
             <img src="images/icon.png" class="icon">
             ALE Engine
-        </p1>
-        <p1 class="aleHeader">Home</p1>
-        <p1 class="aleHeader">Featueres</p1>
-        <p1 class="aleHeader">Downloads</p1>
-        <p1 class="aleHeader">QNA</p1>
+        </a>
+        <a class="aleHeader">Home</a>
+        <a class="aleHeader">Features</a>
+        <a class="aleHeader">Downloads</a>
+        <a class="aleHeader">QNA</a>
     </header>
 
-    <body>
-        <div class="background"></div>
+    <div class="background"></div>
 
+    <body>
         <h1 class="title">
-            <img src="images/icon.png" alt="icon" class="icon">
+            <img src="images/icon.png" class="icon">
             ALE Engine
         </h1>
 
-        <p>ALE Engine is a rewrite of Friday Night Funkin' designed to make mods, with a focus on softcoding.</p>
-
-        <hr>
-
-        <h1 class="aleTitle">Mods</h1>
-        <p class="mod">ALE Engine: Weekend Afternoon Extended</p>
-        <p class="mod">Friday Night Calvin'</p>
-        <p class="mod">AVeryJtoFunkADventure</p>
-        <p class="mod">Chiking Nugget Mod Epic</p>
-        <p class="mod">Rappin' Every Friday</p>
-        <p class="mod">Secret Exit: Lost Levels</p>
-        <p class="mod">Friday Night Calvin': VS Ramis</p>
-
-        <hr>
-
-        <h1 class="aleTitle">Credits</h1>
-        <p class="dev">
-            <img src="https://github.com/alejogdofficial.png" class="devIcon">
-            <a class="aleCredit" href="https://github.com/AlejoGDOfficial">AlejoGDOfficial<br/>Leader - Main Programmer</a>
-        </p>
-        <p class="dev">
-            <img src="https://github.com/ManuArtXD.png" class="devIcon">
-            <a class="aleCredit" href="https://github.com/ManuArtXD">ManuArtz<br/>Animator - Artist - Lua API Contributor</a>
-        </p>
-        <p class="dev">
-            <img src="https://github.com/steve-pro-el-gamer.png" class="devIcon">
-            <a class="aleCredit" href="https://github.com/steve-pro-el-gamer">Speg<br/>Lua API Contributor</a>
-        </p>
+        <h1 class="subtitle">Mods</h1>
+        
+        <div id="mod-list"></div>
     </body>
+    
+    <script src="script.js"></script>
 </html>
