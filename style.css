@@ -83,12 +83,12 @@ p {
     margin-top: 10px;
 }
 
-.aleCredit:visited {
-    color: cyan;
+.aleCredit {
+    color: white;
 }
 
-.aleCredit:visited, .aleCredit:hover, .aleCredit:active, .aleCredit:focus {
-    color: white;
+.aleCredit:visited {
+    color: cyan;
 }
 
 .dev {
