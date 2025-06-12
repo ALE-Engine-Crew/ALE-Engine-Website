@@ -19,7 +19,7 @@ header {
     height: 35px;
 }
 
-headText {
+.aleHeader {
     position: relative;
     top: 2px;
     color: white;
@@ -44,10 +44,19 @@ body {
     font-size: 75px;
     text-align: center;
     width: 100%;
-    background-color: #13063177;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #0000005c;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 20px;
+}
+
+.aleTitle {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: #0000005c;
+    padding-bottom: 15px;
+    border-radius: 15px;
 }
 
 .icon {
@@ -63,14 +72,47 @@ p {
     font-size: 27.5px;
     padding: 0 10px;
     line-height: 1.2;
+    outline-color: black;
+    outline-width: 10px;
+}
+
+.devIcon {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.aleCredit:visited {
+    color: cyan;
+}
+
+.aleCredit:visited, .aleCredit:hover, .aleCredit:active, .aleCredit:focus {
+    color: white;
+}
+
+.dev {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 12px;
+    background: linear-gradient(to right, rgb(29, 85, 88), rgb(12, 51, 65));
+    border-radius: 25px;
 }
 
 .background {
     position: fixed;
-    background: linear-gradient(to bottom, #3f3f91, rgb(72, 33, 91));
+    background: linear-gradient(to bottom, #161632, rgb(54, 32, 65));
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.mod {
+    padding-top: 5px;
+    padding-bottom: 12px;
+    background: linear-gradient(to right, rgb(48, 16, 37), rgb(25, 4, 45));
+    border-radius: 25px;
 }
