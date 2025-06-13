@@ -35,9 +35,19 @@ header {
     position: relative;
     color: white;
     text-decoration: none;
-    margin: 0 30px;
+    margin: 0 3.5%;
     font-size: 20px;
     vertical-align: center;
+}
+
+.feature::before {
+    content: '- ';
+}
+
+.feature {
+    font-size: 25px;
+    padding: 0 15px;
+    color: rgb(217, 255, 237);
 }
 
 .icon {
@@ -48,7 +58,7 @@ header {
 
 .background {
     position: fixed;
-    background: linear-gradient(to bottom, #161632, rgb(54, 32, 65));
+    background: linear-gradient(to bottom, #162532, rgb(64, 32, 65));
     top: 0;
     left: 0;
     width: 100%;
@@ -57,31 +67,39 @@ header {
 }
 
 .title {
-    font-size: 60px;
     font-family: 'Odin';
+    font-size: 70px;
     text-align: center;
-    background: rgba(130, 130, 130, 0.27);
-    display: flex;
+    background: rgba(155, 25, 255, 0.538);
+    display: fixed;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    height: 110px;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .subtitle {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.297);
+    background: rgba(255, 25, 197, 0.178);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    height: 75px;
+    height: 50px;
 }
 
 .text {
-    font-size: 20px;
+    font-size: 22.5px;
     margin: 0 20px;
+}
+
+.text blu {
+    color: aqua;
+}
+
+.text mag {
+    color: rgb(255, 129, 255);
 }
 
 #mod-list {
@@ -116,13 +134,14 @@ header {
 }
 
 .mod .description {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 -20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 .mod .link {
-    margin: 0 -20px;
+    font-size: 18px;
+    margin: 0 -22px;
 }
 
 .mod a {

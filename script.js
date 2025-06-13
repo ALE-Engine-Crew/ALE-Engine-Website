@@ -29,7 +29,7 @@ function renderMods(mods)
 
             const link = document.createElement("a");
             link.href = mod.link;
-            link.className = 'link';
+            link.className = 'link'
             link.target = "_blank";
             link.textContent = "Gamebanana";
 
