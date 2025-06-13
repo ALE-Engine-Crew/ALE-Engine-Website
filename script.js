@@ -13,7 +13,7 @@ function renderMods(mods)
             modDiv.className = "mod";
 
             const img = document.createElement("img");
-            img.src = mod.image;
+            img.src = 'images/mods/' + mod.image + '.png';
             img.alt = mod.description;
 
             const textDiv = document.createElement("div");
@@ -29,6 +29,7 @@ function renderMods(mods)
 
             const link = document.createElement("a");
             link.href = mod.link;
+            link.className = 'link';
             link.target = "_blank";
             link.textContent = "Gamebanana";
 

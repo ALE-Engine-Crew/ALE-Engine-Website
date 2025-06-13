@@ -84,37 +84,47 @@ header {
     margin: 0 20px;
 }
 
+#mod-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: center;
+}
+
 .mod {
     background-color: black;
-    display: flex;
     align-items: center;
-    padding: 20px;
-    border-radius: 30px;
-    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 47.5%
 }
 
 .mod img {
-    width: 30%;
-    height: auto;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .mod .text {
-    padding-left: 30px;
+    padding-left: 10px;
     color: white;
 }
 
 .mod .name {
-    font-size: 60px;
-    margin: 0;
+    font-size: 25px;
+    margin: 0 -20px;
 }
 
 .mod .description {
-    font-size: 30px;
-    margin: 0 0 10px;
+    font-size: 20px;
+    margin: 0 -20px;
     color: rgba(255, 255, 255, 0.5);
 }
 
+.mod .link {
+    margin: 0 -20px;
+}
+
 .mod a {
-    color: purple;
+    color: rgb(210, 0, 210);
 }

@@ -1,14 +1,26 @@
 [
     {
-        "name": "Oso",
-        "description": "Leche",
-        "image": "images/icon.png",
+        "name": "Friday Night Calvin'",
+        "description": "VS Calvo Remake",
+        "image": "calvin",
         "link": "https://example.com"
     },
     {
-        "name": "Gato",
-        "description": "Café",
-        "image": "images/icon.png",
-        "link": "https://otro-ejemplo.com"
+        "name": "Friday Night Calvin'",
+        "description": "VS Calvo Remake",
+        "image": "calvin",
+        "link": "https://example.com"
+    },
+    {
+        "name": "Friday Night Calvin'",
+        "description": "VS Calvo Remake",
+        "image": "calvin",
+        "link": "https://example.com"
+    },
+    {
+        "name": "Friday Night Calvin'",
+        "description": "VS Calvo Remake",
+        "image": "calvin",
+        "link": "https://example.com"
     }
 ]
